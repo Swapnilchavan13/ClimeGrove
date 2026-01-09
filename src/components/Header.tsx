@@ -7,7 +7,7 @@ const Header = () => {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
 
   const products = [
-    { name: "NettZero", href: "#" },
+    { name: "NettZero", href: "nettzero.world" },
     { name: "ClimeScore", href: "#" },
     { name: "ClimeStore", href: "#" },
     { name: "ClimeSchool", href: "#" },
