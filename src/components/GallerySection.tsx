@@ -17,23 +17,24 @@ import gallery16 from "@/assets/gallery-16.jpg";
 
 const GallerySection = () => {
   const images = [
-    { src: gallery01, caption: "Farmer holding freshly produced biochar" },
-    { src: gallery02, caption: "Pyrolysis kiln in operation" },
-    { src: gallery03, caption: "Women farmers applying biochar to fields" },
-    { src: gallery04, caption: "Crop residue ready for collection" },
-    { src: gallery05, caption: "New growth in biochar-enriched soil" },
-    { src: gallery06, caption: "Biomass transport and logistics" },
-    { src: gallery07, caption: "Soil testing and quality monitoring" },
-    { src: gallery08, caption: "Aerial view of regenerated farmland" },
-    { src: gallery09, caption: "Farming families we work with" },
-    { src: gallery10, caption: "Biochar bags ready for distribution" },
-    { src: gallery11, caption: "Seedlings thriving in enriched soil" },
-    { src: gallery12, caption: "Sunset over the fields" },
-    { src: gallery13, caption: "Community planning meeting" },
-    { src: gallery14, caption: "Biochar texture close-up" },
-    { src: gallery15, caption: "Abundant harvest after soil restoration" },
-    { src: gallery16, caption: "Healthy, regenerated farmland" },
+    { src: "https://iili.io/fkMupja.jpg", caption: "Farmer holding freshly produced biochar" },
+    { src: "https://iili.io/fkMuDyF.jpg", caption: "Pyrolysis kiln in operation" },
+    { src: "https://iili.io/fkEi4AQ.jpg", caption: "Women farmers applying biochar to fields" },
+    { src: "https://iili.io/fkEirHx.jpg", caption: "Crop residue ready for collection" },
+    { src: "https://iili.io/fkEiUSj.jpg", caption: "New growth in biochar-enriched soil" },
+    { src: "https://iili.io/fkEiScb.jpg", caption: "Biomass transport and logistics" },
+    { src: "https://iili.io/fkEi8Ku.jpg", caption: "Soil testing and quality monitoring" },
+    { src: "https://iili.io/fe7dutf.jpg", caption: "Aerial view of regenerated farmland" },
+    { src: "https://iili.io/fe5y8CB.jpg", caption: "Farming families we work with" },
+    { src: "https://iili.io/fe5mnaa.jpg", caption: "Biochar bags ready for distribution" },
+    { src: "https://iili.io/fOZpEdb.png", caption: "Seedlings thriving in enriched soil" },
+    { src: "https://iili.io/fOZpnqX.png", caption: "Sunset over the fields" },
+    { src: "https://iili.io/fOZwmYv.jpg", caption: "Community planning meeting" },
+    { src: "https://iili.io/fOZwt4a.jpg", caption: "Biochar texture close-up" },
+    { src: "https://iili.io/fOZaE9s.jpg", caption: "Abundant harvest after soil restoration" },
+    { src: "https://iili.io/fOZaH8u.jpg", caption: "Healthy, regenerated farmland" },
   ];
+
 
   return (
     <section id="gallery" className="relative py-24 md:py-32 overflow-hidden bg-background">

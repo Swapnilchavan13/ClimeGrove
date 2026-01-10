@@ -25,10 +25,10 @@ const BiocharSection = () => {
   ];
 
   const processSteps = [
-    { step: "01", title: "Collect", description: "Agricultural and forestry residues gathered from farms" },
-    { step: "02", title: "Convert", description: "Controlled pyrolysis transforms biomass to biochar" },
-    { step: "03", title: "Stabilise", description: "Carbon locked in stable form for centuries" },
-    { step: "04", title: "Apply", description: "Biochar returned to land as soil amendment" }
+    { step: "01", title: "Collect", description: "Agricultural and forestry residues gathered from farms", text:"Over 500,000 kgs of rice straw rehabilitated." },
+    { step: "02", title: "Convert", description: "Controlled pyrolysis transforms biomass to biochar", text:"Over 125,000 kilos of carbon locked for 1000+ years." },
+    { step: "03", title: "Stabilise", description: "Carbon locked in stable form for centuries", text:"Over 250,000 kgs of organic fertiliser created." },
+    { step: "04", title: "Apply", description: "Biochar returned to land as soil amendment", text:"Over 2000 acres of soils noirished." }
   ];
 
   return (
@@ -78,6 +78,13 @@ const BiocharSection = () => {
                 <div className="relative z-10 pt-8">
                   <h4 className="font-bold text-foreground mb-2">{item.title}</h4>
                   <p className="text-sm text-muted-foreground">{item.description}</p>
+                  <h4
+  className="bg-background/40"
+  style={{ color: "rgba(103, 54, 34, 1)" }}
+>
+  {item.text}
+</h4>
+
                 </div>
               </div>
             ))}

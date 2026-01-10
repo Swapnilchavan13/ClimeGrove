@@ -65,7 +65,7 @@ const Footer = () => {
                   href="mailto:connect@climegrove.com" 
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  connect@climegrove.com
+                  partnership@nettzero.world
                 </a>
               </li>
               <li>

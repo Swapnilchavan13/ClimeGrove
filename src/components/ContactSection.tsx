@@ -77,7 +77,7 @@ const ContactSection = () => {
             href="mailto:connect@climegrove.com" 
             className="font-display text-2xl font-bold text-foreground hover:text-terracotta transition-colors"
           >
-            connect@climegrove.com
+            partnership@nettzero.world
           </a>
         </div>
       </div>

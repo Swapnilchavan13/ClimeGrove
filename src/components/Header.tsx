@@ -19,13 +19,18 @@ const Header = () => {
       <div className="section-container">
         <nav className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <img 
-              src={logo} 
-              alt="ClimeGrove Logo" 
-              className="h-8 md:h-10 w-auto invert"
-            />
-          </Link>
+          <Link
+  to="/"
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  className="flex items-center gap-3"
+>
+  <img
+    src={logo}
+    alt="ClimeGrove Logo"
+    className="h-20 md:h-18 w-auto invert"
+  />
+</Link>
+
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
