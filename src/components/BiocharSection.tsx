@@ -38,7 +38,7 @@ const BiocharSection = () => {
         <img 
           src={biocharImage} 
           alt="Biochar kiln in operation" 
-          className="image-cinematic opacity-55"
+          className="image-cinematic opacity-15"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/40 to-background/60" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/50 via-transparent to-background/50" />

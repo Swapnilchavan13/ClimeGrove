@@ -28,7 +28,7 @@ const Index = () => {
         <BiocharBoomSection />
         <ProjectsSection />
         <B3Section />
-        <ImpactSection />
+        {/* <ImpactSection /> */}
         <MRVSection />
         <PathwaysSection />
         <VisionSection />

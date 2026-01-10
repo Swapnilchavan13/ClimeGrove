@@ -8,7 +8,7 @@ const IntentSection = () => {
         <img 
           src={intentImage} 
           alt="Farmers collecting agricultural biomass" 
-          className="image-cinematic opacity-65"
+          className="image-cinematic opacity-25"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/30 to-background/60" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-transparent to-transparent" />

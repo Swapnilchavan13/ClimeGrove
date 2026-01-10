@@ -28,7 +28,7 @@ const TeamSection = () => {
         <img
           src={galleryImage}
           alt="Team background"
-          className="image-cinematic opacity-50"
+          className="image-cinematic opacity-15"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/40 to-background/60" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_25%,hsl(var(--background)/0.75)_85%)]" />

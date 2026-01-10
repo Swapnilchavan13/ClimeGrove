@@ -7,7 +7,7 @@ const Header = () => {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
 
   const products = [
-    { name: "NettZero", href: "nettzero.world" },
+    { name: "NettZero", href: "https://nettzero.world" },
     { name: "ClimeScore", href: "#" },
     { name: "ClimeStore", href: "#" },
     { name: "ClimeSchool", href: "#" },
@@ -40,19 +40,22 @@ const Header = () => {
                 <ChevronDown className="w-4 h-4" />
               </button>
               
-              {isProductsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-background/95 backdrop-blur-md border border-border/50 rounded-lg shadow-xl py-2">
-                  {products.map((product) => (
-                    <a
-                      key={product.name}
-                      href={product.href}
-                      className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 transition-colors"
-                    >
-                      {product.name}
-                    </a>
-                  ))}
-                </div>
-              )}
+           {isProductsOpen && (
+  <div className="absolute top-full left-0 mt-2 w-48 bg-background/95 backdrop-blur-md border border-border/50 rounded-lg shadow-xl py-2">
+    {products.map((product) => (
+      <a
+        key={product.name}
+        href={product.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary/50 transition-colors"
+      >
+        {product.name}
+      </a>
+    ))}
+  </div>
+)}
+
             </div>
 
             <a href="#crisis" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
