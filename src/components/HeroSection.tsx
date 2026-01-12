@@ -31,11 +31,11 @@ const HeroSection = () => {
           </h1>
 
           {/* Sub-headline */}
-          <p className="body-large text-muted-foreground max-w-2xl mb-12 opacity-0 animate-fade-in-up delay-400">
+          {/* <p className="body-large text-muted-foreground max-w-2xl mb-12 opacity-0 animate-fade-in-up delay-400">
             ClimeGrove by NettZero works at the intersection of soil collapse, air pollution, 
             biomass waste, and climate change — restoring balance through proven, 
             on-ground systems.
-          </p>
+          </p> */}
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up delay-500">
