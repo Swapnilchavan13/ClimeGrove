@@ -17,22 +17,22 @@ import gallery16 from "@/assets/gallery-16.jpg";
 
 const GallerySection = () => {
   const images = [
-    { src: "https://iili.io/fkMupja.jpg", caption: "Farmer holding freshly produced biochar" },
-    { src: "https://iili.io/fkMuDyF.jpg", caption: "Pyrolysis kiln in operation" },
-    { src: "https://iili.io/fkEi4AQ.jpg", caption: "Women farmers applying biochar to fields" },
-    { src: "https://iili.io/fkEirHx.jpg", caption: "Crop residue ready for collection" },
-    { src: "https://iili.io/fkEiUSj.jpg", caption: "New growth in biochar-enriched soil" },
-    { src: "https://iili.io/fkEiScb.jpg", caption: "Biomass transport and logistics" },
-    { src: "https://iili.io/fkEi8Ku.jpg", caption: "Soil testing and quality monitoring" },
-    { src: "https://iili.io/fe7dutf.jpg", caption: "Aerial view of regenerated farmland" },
-    { src: "https://iili.io/fe5y8CB.jpg", caption: "Farming families we work with" },
-    { src: "https://iili.io/fe5mnaa.jpg", caption: "Biochar bags ready for distribution" },
-    { src: "https://iili.io/fOZpEdb.png", caption: "Seedlings thriving in enriched soil" },
-    { src: "https://iili.io/fOZpnqX.png", caption: "Sunset over the fields" },
-    { src: "https://iili.io/fOZwmYv.jpg", caption: "Community planning meeting" },
-    { src: "https://iili.io/fOZwt4a.jpg", caption: "Biochar texture close-up" },
-    { src: "https://iili.io/fOZaE9s.jpg", caption: "Abundant harvest after soil restoration" },
-    { src: "https://iili.io/fOZaH8u.jpg", caption: "Healthy, regenerated farmland" },
+    { src: "https://iili.io/fkMupja.jpg", caption: "Tigers roaming freely in Bandhavgarh" },
+    { src: "https://iili.io/fkMuDyF.jpg", caption: "Transporting agricultural residue for biochar making" },
+    { src: "https://iili.io/fkEi4AQ.jpg", caption: "Open-pit biochar production using crop waste" },
+    { src: "https://iili.io/fkEirHx.jpg", caption: "Farmers holding freshly produced biochar" },
+    { src: "https://iili.io/fkEiUSj.jpg", caption: "Processed biochar stored in containers" },
+    { src: "https://iili.io/fkEiScb.jpg", caption: "Bulk biochar ready for soil application" },
+    { src: "https://iili.io/fkEi8Ku.jpg", caption: "Community demonstration of biochar production" },
+    { src: "https://iili.io/fe7dutf.jpg", caption: "Collected agricultural biomass for biochar preparation" },
+    { src: "https://iili.io/fe5y8CB.jpg", caption: "Farmer holding freshly produced biochar pellets" },
+    { src: "https://iili.io/fe5mnaa.jpg", caption: "Flame-cone kiln in action for biochar production" },
+    { src: "https://iili.io/fOZpEdb.png", caption: "Large biochar heap cooling after production" },
+    { src: "https://iili.io/fOZpnqX.png", caption: "Field-scale biochar production activity by farmers" },
+    { src: "https://iili.io/fOZwmYv.jpg", caption: "Agricultural residue storage and transport area" },
+    { src: "https://iili.io/fOZwt4a.jpg", caption: "Farmers gathered around a biochar production unit" },
+    { src: "https://iili.io/fOZaE9s.jpg", caption: "Biochar pile ready for storage and soil application" },
+    { src: "https://iili.io/fOZaH8u.jpg", caption: "Project team and farmers during biochar field demonstration" },
   ];
 
 
