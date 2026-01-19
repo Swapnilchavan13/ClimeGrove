@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Label */}
           <div className="mb-8 opacity-0 animate-fade-in">
             <span className="label-text text-terracotta">
-              Climate Infrastructure for India
+              Climate Infrastructure for The Globle South
             </span>
           </div>
 

@@ -1,19 +1,4 @@
-import gallery01 from "@/assets/gallery-01.jpg";
-import gallery02 from "@/assets/gallery-02.jpg";
-import gallery03 from "@/assets/gallery-03.jpg";
-import gallery04 from "@/assets/gallery-04.jpg";
-import gallery05 from "@/assets/gallery-05.jpg";
-import gallery06 from "@/assets/gallery-06.jpg";
-import gallery07 from "@/assets/gallery-07.jpg";
-import gallery08 from "@/assets/gallery-08.jpg";
-import gallery09 from "@/assets/gallery-09.jpg";
-import gallery10 from "@/assets/gallery-10.jpg";
-import gallery11 from "@/assets/gallery-11.jpg";
-import gallery12 from "@/assets/gallery-12.jpg";
-import gallery13 from "@/assets/gallery-13.jpg";
-import gallery14 from "@/assets/gallery-14.jpg";
-import gallery15 from "@/assets/gallery-15.jpg";
-import gallery16 from "@/assets/gallery-16.jpg";
+
 
 const GallerySection = () => {
   const images = [

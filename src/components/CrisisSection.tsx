@@ -45,7 +45,7 @@ const CrisisSection = () => {
             The Crisis
           </span>
           <h2 className="headline-section text-foreground opacity-0 animate-fade-in-up delay-100">
-            These emergencies are interconnected. So must be the solution.
+            These emergencies are interconnected. <span className="text-terracotta">So must be the solution.</span>
           </h2>
         </div>
 

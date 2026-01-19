@@ -78,7 +78,7 @@ electricityEquiv: "1.94M"
       location: "Bandhavgarh",
       state: "Madhya Pradesh",
       headline: "Buffer Zone Revival",
-      subhead: "Forest-edge communities building soil and income",
+      subhead: "Forest communities building soil and income",
       description: "We are converting invasive species and rice straw into biochar for the last 2 years. We've covered nearly 10,000 farmers and prevented over 200,000 kgs of rice straw from being burnt.",
       image: projectBandhavgarh,
       metrics: {
@@ -133,7 +133,7 @@ electricityEquiv: "-"
             ClimeGrove at Work
           </h2>
           <p className="body-large text-muted-foreground opacity-0 animate-fade-in-up delay-200">
-            Six active project sites across India, each solving local crises while building permanent carbon infrastructure.
+            Six active project sites across India, each solving local crises while building permanent carbon infrastructure*.
           </p>
         </div>
 
@@ -213,6 +213,13 @@ electricityEquiv: "-"
             </div>
           ))}
         </div>
+      <div className="mt-4 pt-4 border-t border-border/30 flex justify-end">
+  <p className="text-xs text-muted-foreground">
+    *Numbers include tCO2e removed so far + ongoing removals in FY 2026
+  </p>
+</div>
+
+
       </div>
     </section>
   );
