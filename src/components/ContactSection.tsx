@@ -1,6 +1,8 @@
 import contactImage from "@/assets/contact-community.jpg";
 
 const ContactSection = () => {
+
+  
   const options = [
     {
       title: "Carbon Buyers",
@@ -23,6 +25,18 @@ const ContactSection = () => {
       cta: "Start Conversation"
     }
   ];
+
+  const openContactMail = (option) => {
+  const to = "partnership@nettzero.world";
+  const subject = `Inquiry – ${option.title}`;
+
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+    to
+  )}&su=${encodeURIComponent(subject)}`;
+
+  window.open(gmailUrl, "_blank");
+};
+
 
   return (
     <section id="contact" className="relative min-h-screen py-24 md:py-32 overflow-hidden">
@@ -62,10 +76,14 @@ const ContactSection = () => {
             >
               <h3 className="headline-subsection text-foreground mb-3">{option.title}</h3>
               <p className="body-text text-muted-foreground mb-6">{option.description}</p>
-              <button className="text-terracotta font-bold flex items-center gap-2 group-hover:gap-3 transition-all">
-                {option.cta}
-                <span>→</span>
-              </button>
+            <button
+  onClick={() => openContactMail(option)}
+  className="text-terracotta font-bold flex items-center gap-2 group-hover:gap-3 transition-all"
+>
+  {option.cta}
+  <span>→</span>
+</button>
+
             </div>
           ))}
         </div>

@@ -1,6 +1,7 @@
 import galleryImage from "@/assets/gallery-12.jpg";
 
 const CareersSection = () => {
+  
   const jobs = [
     { title: "Field Operations Manager", location: "Madhya Pradesh", description: "Lead on-ground biochar production and farmer engagement across Central India sites.", experience: "5+" },
     { title: "Carbon Credit Analyst", location: "Remote / Delhi NCR", description: "Manage MRV processes, registry submissions, and carbon credit documentation.", experience: "3+" },
@@ -32,9 +33,23 @@ const CareersSection = () => {
                 <span className="text-xs px-2 py-1 bg-terracotta/20 text-terracotta rounded">{job.experience} yrs exp</span>
               </div>
               <p className="text-sm text-muted-foreground mb-4">{job.description}</p>
-              <button className="text-terracotta font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all">
-                Apply Now <span>→</span>
-              </button>
+              <button
+  onClick={() => {
+    const subject = `Application for ${job.title} – ${job.location}`;
+    const to = "partnership@nettzero.world";
+
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+      to
+    )}&su=${encodeURIComponent(subject)}`;
+
+    window.open(gmailUrl, "_blank");
+  }}
+  className="text-terracotta font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all"
+>
+  Apply Now <span>→</span>
+</button>
+
+
             </div>
           ))}
         </div>
