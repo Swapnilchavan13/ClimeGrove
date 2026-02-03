@@ -2,22 +2,22 @@
 
 const GallerySection = () => {
   const images = [
-    { src: "https://iili.io/fkMupja.jpg", caption: "Tigers roaming freely in Bandhavgarh" },
-    { src: "https://iili.io/fkMuDyF.jpg", caption: "Transporting agricultural residue for biochar making" },
-    { src: "https://iili.io/fkEi4AQ.jpg", caption: "Open-pit biochar production using crop waste" },
-    { src: "https://iili.io/fkEirHx.jpg", caption: "Farmers holding freshly produced biochar" },
-    { src: "https://iili.io/fkEiUSj.jpg", caption: "Processed biochar stored in containers" },
-    { src: "https://iili.io/fkEiScb.jpg", caption: "Bulk biochar ready for soil application" },
-    { src: "https://iili.io/fkEi8Ku.jpg", caption: "Community demonstration of biochar production" },
-    { src: "https://iili.io/fe7dutf.jpg", caption: "Collected agricultural biomass for biochar preparation" },
-    { src: "https://iili.io/fe5y8CB.jpg", caption: "Farmer holding freshly produced biochar pellets" },
-    { src: "https://iili.io/fe5mnaa.jpg", caption: "Flame-cone kiln in action for biochar production" },
-    { src: "https://iili.io/fOZpEdb.png", caption: "Large biochar heap cooling after production" },
-    { src: "https://iili.io/fOZpnqX.png", caption: "Field-scale biochar production activity by farmers" },
-    { src: "https://iili.io/fOZwmYv.jpg", caption: "Agricultural residue storage and transport area" },
-    { src: "https://iili.io/fOZwt4a.jpg", caption: "Farmers gathered around a biochar production unit" },
-    { src: "https://iili.io/fOZaE9s.jpg", caption: "Biochar pile ready for storage and soil application" },
-    { src: "https://iili.io/fOZaH8u.jpg", caption: "Project team and farmers during biochar field demonstration" },
+    { src: "https://i.postimg.cc/k5hQqZ4r/why_bandhavgarh_national_park_banner_img.jpg", caption: "Tigers roaming freely in Bandhavgarh" },
+    { src: "https://i.postimg.cc/hG3LcwjK/Whats_App_Image_2026_01_10_at_3_05_05_PM.jpg", caption: "Transporting agricultural residue for biochar making" },
+    { src: "https://i.postimg.cc/02bnT2rY/Homepage_Slider3_Rice_Straw.png", caption: "Open-pit biochar production using crop waste" },
+    { src: "https://i.postimg.cc/4yYpY1Yh/8981390D_7A7C_4488_9CD7_89C945C51CFB.jpg", caption: "Farmers holding freshly produced biochar" },
+    { src: "https://i.postimg.cc/k4Fpjqsk/IMG_7388.jpg", caption: "Processed biochar stored in containers" },
+    { src: "https://i.postimg.cc/FFgXYpx2/IMG_7829.jpg", caption: "Bulk biochar ready for soil application" },
+    { src: "https://i.postimg.cc/Vk3GgR9d/0F9D9A8C-545B-4B65-B2AE-3CA5C527B854.jpg", caption: "Community demonstration of biochar production" },
+    { src: "https://i.postimg.cc/bvYgzk9M/Whats_App_Image_2026_01_09_at_5_54_27_PM_(1).jpg", caption: "Collected agricultural biomass for biochar preparation" },
+    { src: "https://i.postimg.cc/PqFWTcxj/Whats_App_Image_2026_01_09_at_5_54_26_PM.jpg", caption: "Farmer holding freshly produced biochar pellets" },
+    { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0_8F0E_4555_AD36_6EB8581D2A5A.jpg", caption: "Flame-cone kiln in action for biochar production" },
+    { src: "https://i.postimg.cc/Pfy7YfP5/IMG_7828.jpg", caption: "Large biochar heap cooling after production" },
+    { src: "https://i.postimg.cc/tTShRc4F/Whats_App_Image_2026_01_09_at_5_54_28_PM.jpg", caption: "Field-scale biochar production activity by farmers" },
+    { src: "https://i.postimg.cc/ydXbfsjr/IMG_7218.jpg", caption: "Agricultural residue storage and transport area" },
+    { src: "https://i.postimg.cc/RFQDP4dR/IMG_7345.jpg", caption: "Farmers gathered around a biochar production unit" },
+    { src: "https://i.postimg.cc/L5JjJVJn/Whats_App_Image_2026_01_09_at_5_54_11_PM.jpg", caption: "Biochar pile ready for storage and soil application" },
+    { src: "https://i.postimg.cc/d3pJ5tSv/Homepage_Slider3_Farmers2.png", caption: "Project team and farmers during biochar field demonstration" },
   ];
 
 
