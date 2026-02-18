@@ -51,6 +51,14 @@ const HeroSection = () => {
             >
               Understand the Crisis
             </a>
+
+          <a 
+  href="/offset-details" 
+  className="inline-flex items-center justify-center px-8 py-4 bg-terracotta text-cream font-medium rounded-md hover:bg-terracotta-light transition-colors"
+>
+  Offset Your Employee Emissions
+</a>
+
           </div>
         </div>
       </div>
