@@ -62,7 +62,7 @@ export default function OffsetDetailsPage() {
               {pack.description}
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-4 text-base font-medium text-gray-900">
+            <div className="grid sm:grid-cols-2 gap-4 text-base font-semibold text-gray-900">
               <div>Type: {pack.packType}</div>
               <div>Duration: {pack.duration}</div>
               <div>Buyer: {pack.intendedBuyer}</div>
@@ -70,7 +70,7 @@ export default function OffsetDetailsPage() {
             </div>
           </div>
 
-          {/* Emission Breakdown (Read Only) */}
+          {/* Emission Breakdown */}
           <div className="bg-white border border-gray-200 rounded-2xl shadow-md overflow-hidden">
             <div className="bg-orange-600 px-6 py-4">
               <h2 className="text-white text-lg font-semibold">
@@ -107,6 +107,46 @@ export default function OffsetDetailsPage() {
             </table>
           </div>
 
+          {/* Projects Section */}
+          <div className="bg-white border border-gray-200 rounded-2xl shadow-md p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">
+              Climate Projects Supported
+            </h2>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {pack.projects.map((project, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-lg transition"
+                >
+                  <img
+                    src={project.project_image_url}
+                    alt={project.projectId}
+                    className="h-48 w-full object-cover"
+                  />
+
+                  <div className="p-6">
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">
+                      {project.projectId}
+                    </h3>
+
+                    <p className="text-gray-700 font-medium">
+                      Allocation:{" "}
+                      <span className="text-green-600 font-bold">
+                        {project.allocation_percent.toFixed(2)}%
+                      </span>
+                    </p>
+
+                    <p className="text-gray-600 mt-2 text-sm">
+                      Price per kg: {pack.currency}{" "}
+                      {project.price_per_kg}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
         </div>
 
         {/* RIGHT SUMMARY */}
@@ -117,7 +157,7 @@ export default function OffsetDetailsPage() {
               Offset Summary
             </h3>
 
-            {/* Pack Quantity Selector */}
+            {/* Pack Quantity */}
             <div className="mb-8">
               <p className="text-lg mb-3 font-semibold">
                 Number of Packs
