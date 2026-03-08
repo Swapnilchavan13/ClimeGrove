@@ -58,6 +58,12 @@ export default function OffsetDetailsPage() {
               {pack.pack_name}
             </h1>
 
+           <img 
+            className="w-full h-64 object-cover rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300"
+
+            src={`https://microoffsets.nettzero.world/api${pack.image_url}`} alt="" />
+
+
             <p className="text-lg text-gray-800 leading-relaxed mb-6">
               {pack.description}
             </p>
@@ -113,7 +119,7 @@ export default function OffsetDetailsPage() {
               Climate Projects Supported
             </h2>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
               {pack.projects.map((project, index) => (
                 <div
                   key={index}

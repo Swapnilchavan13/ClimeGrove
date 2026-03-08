@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Label */}
           <div className="mb-8 opacity-0 animate-fade-in">
             <span className="label-text text-terracotta">
-              Climate Infrastructure for The Globle South
+              Climate Infrastructure for The Global South
             </span>
           </div>
 
@@ -58,7 +58,7 @@ const HeroSection = () => {
 >
   Offset Your Employee Emissions
 </a>
-
+x
           </div>
         </div>
       </div>
