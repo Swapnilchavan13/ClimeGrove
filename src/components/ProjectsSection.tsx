@@ -18,28 +18,13 @@ const ProjectsSection = () => {
       metrics: {
         biomass: "4,000",
         co2: "2,000",
-        farmers: "250",
+        farmers: "2000",
         soilArea: "10000",
         treesEquiv: "32,900",
         electricityEquiv: "1.6M"
       }
     },
-    {
-      location: "Chamoli",
-      state: "Uttarakhand",
-      headline: "Himalayan Conservation",
-      subhead: "Forest floor debris converted to climate action",
-      description: "Pine needle litter creates a serious forest fire risk in Uttarakhand. Our collection and conversion program removes this hazard while producing biochar for degraded hill agriculture. We are excited to launch this initiative in February 2026.",
-      image: projectChamoli,
-      metrics: {
-        biomass: "-",
-        co2: "-",
-        farmers: "-",
-        soilArea: "-",
-        treesEquiv: "-",
-        electricityEquiv: "-"
-      }
-    },
+   
     {
       location: "Puranpur",
       state: "Uttar Pradesh",
@@ -50,7 +35,7 @@ const ProjectsSection = () => {
       metrics: {
       biomass: "3,500",
 co2: "1,800",
-farmers: "220",
+farmers: "5000",
 soilArea: "11,400",
 treesEquiv: "29,600",
 electricityEquiv: "1.45M"
@@ -60,14 +45,14 @@ electricityEquiv: "1.45M"
     {
       location: "Damoh",
       state: "Madhya Pradesh",
-      headline: "Dryland Restoration",
+      headline: "Rice Straw Restoration",
       subhead: "Soy and wheat residue creating soil carbon",
       description: "We are converting rice straw into biochar and working with a cooperative of over 20,000 farmers. This year, we will prevent 300,000 kgs of rice straw from being burnt.",
       image: projectDamoh,
       metrics: {
       biomass: "4,100",
 co2: "2,400",
-farmers: "280",
+farmers: "20000",
 soilArea: "11,920",
 treesEquiv: "39,500",
 electricityEquiv: "1.94M"
@@ -84,27 +69,10 @@ electricityEquiv: "1.94M"
       metrics: {
       biomass: "3,600",
 co2: "2,150",
-farmers: "240",
+farmers: "10000",
 soilArea: "10,680",
 treesEquiv: "35,400",
 electricityEquiv: "1.73M"
-      }
-    },
-    {
-      location: "Udupi",
-      state: "Karnataka",
-      headline: "Coastal Carbon",
-      subhead: "Coconut and areca waste to premium biochar",
-      description: "Karnataka's coastal plantations generate abundant husk and frond waste. Our units produce high-quality biochar suited for the region's laterite soils and areca gardens. We are going to start in April 2026.",
-      image: projectUdupi,
-      metrics: {
-       biomass: "-",
-co2: "-",
-farmers: "-",
-soilArea: "-",
-treesEquiv: "-",
-electricityEquiv: "-"
-
       }
     }
   ];

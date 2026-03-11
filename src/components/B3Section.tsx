@@ -61,19 +61,36 @@ const B3Section = () => {
 
           {/* Product Image */}
           <div className="opacity-0 animate-fade-in-up delay-500">
-            <div className="relative">
-              <div className="bg-background/30 backdrop-blur-sm border border-border/30 rounded-2xl p-8 flex items-center justify-center">
-                <img 
-                  src={b3Packaging} 
-                  alt="Bhoomi Bio Booster B3 Product"
-                  className="max-w-full h-auto rounded-lg shadow-2xl"
-                />
-              </div>
-              <div className="absolute -bottom-4 -right-4 bg-terracotta text-cream px-4 py-2 rounded-lg shadow-lg">
-                <span className="text-sm font-bold">Premium Biochar</span>
-              </div>
-            </div>
-          </div>
+  <div className="relative">
+    
+    {/* Main Image */}
+    <div className="bg-background/30 backdrop-blur-sm border border-border/30 rounded-2xl p-8 flex items-center justify-center">
+      <img 
+        src={b3Packaging} 
+        alt="Bhoomi Bio Booster B3 Product"
+        className="max-w-full h-auto rounded-lg shadow-2xl"
+      />
+    </div>
+
+    {/* Two Images Below */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+
+      <img
+        src="https://iili.io/q7uFmlI.jpg"
+        alt="Soil Image 2"
+        className="w-full h-auto rounded-lg shadow-md object-cover"
+      />
+
+        <img
+        src="https://iili.io/q7uK9HX.jpg"
+        alt="Soil Image 1"
+        className="w-full h-auto rounded-lg shadow-md object-cover"
+      />
+
+    </div>
+
+  </div>
+</div>
         </div>
       </div>
     </section>

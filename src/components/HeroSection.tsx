@@ -26,14 +26,14 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="headline-display text-foreground mb-8 opacity-0 animate-fade-in-up delay-200">
-            When land degrades, air chokes, and farmers burn what once sustained them — 
+            When land degrades, air chokes and farmers burn what once sustained them — 
             <span className="text-terracotta"> carbon is only part of the problem.</span>
           </h1>
 
           {/* Sub-headline */}
           <p className="body-large text-muted-foreground max-w-2xl mb-12 opacity-0 animate-fade-in-up delay-400">
             ClimeGrove by NettZero works at the intersection of soil collapse, air pollution, 
-            biomass waste, and climate change — restoring balance through proven, 
+            biomass waste and climate change — restoring balance through proven, 
             on-ground systems.
           </p>
 
@@ -58,7 +58,6 @@ const HeroSection = () => {
 >
   Offset Your Employee Emissions
 </a>
-x
           </div>
         </div>
       </div>

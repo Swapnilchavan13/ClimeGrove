@@ -4,7 +4,7 @@ const CrisisSection = () => {
   const crisisPoints = [
     {
       title: "Crop Residue Burning",
-      description: "Every harvest season, millions of tonnes of stubble are burned, creating toxic air that engulfs cities and villages alike.",
+      description: "Every harvest season, 250 million tonnes stubble is burned, creating toxic air that engulfs cities and villages alike.",
       icon: "🔥"
     },
     {
@@ -65,30 +65,51 @@ const CrisisSection = () => {
         </div>
 
         {/* Critical Data Callout */}
-        <div className="bg-background/50 backdrop-blur-sm border border-border/30 rounded-lg p-8 md:p-12">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="label-text text-terracotta mb-6 block">Soil Organic Carbon Crisis</span>
-            
-            <div className="grid grid-cols-3 gap-8 mb-8">
-              <div>
-                <span className="stat-number text-destructive">~0.6%</span>
-                <p className="text-sm text-muted-foreground mt-2">Current levels in many districts</p>
-              </div>
-              <div>
-                <span className="stat-number text-terracotta">0.8%</span>
-                <p className="text-sm text-muted-foreground mt-2">Bare minimum threshold</p>
-              </div>
-              <div>
-                <span className="stat-number text-sage">~2%</span>
-                <p className="text-sm text-muted-foreground mt-2">Healthy, productive soil</p>
-              </div>
-            </div>
+       <div className="bg-background/50 backdrop-blur-sm border border-border/30 rounded-lg p-6 sm:p-8 md:p-12">
+  <div className="max-w-3xl mx-auto text-center">
+    
+    <span className="label-text text-terracotta mb-6 block">
+      Soil Organic Carbon Crisis
+    </span>
 
-            <p className="body-large text-foreground font-display italic">
-              "This is a slow-motion disaster unfolding beneath our feet."
-            </p>
-          </div>
-        </div>
+    {/* Stats */}
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-8">
+      
+      <div>
+        <span className="stat-number text-destructive text-2xl sm:text-3xl md:text-4xl">
+          ~0.6%
+        </span>
+        <p className="text-xs sm:text-sm text-muted-foreground mt-2">
+          Current levels in many districts
+        </p>
+      </div>
+
+      <div>
+        <span className="stat-number text-terracotta text-2xl sm:text-3xl md:text-4xl">
+          0.8%
+        </span>
+        <p className="text-xs sm:text-sm text-muted-foreground mt-2">
+          Bare minimum threshold
+        </p>
+      </div>
+
+      <div>
+        <span className="stat-number text-sage text-2xl sm:text-3xl md:text-4xl">
+          ~2%
+        </span>
+        <p className="text-xs sm:text-sm text-muted-foreground mt-2">
+          Healthy, productive soil
+        </p>
+      </div>
+
+    </div>
+
+    <p className="text-base sm:text-lg md:text-xl body-large text-foreground font-display italic">
+      "This is a slow-motion disaster unfolding beneath our feet."
+    </p>
+
+  </div>
+</div>
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 "use client";
 
+import Header from "@/components/Header";
 import { useEffect, useState } from "react";
 
 export default function OffsetDetailsPage() {
@@ -47,6 +48,7 @@ export default function OffsetDetailsPage() {
 
   return (
     <div className="min-h-screen bg-white py-16 px-6">
+      <Header />
       <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-12">
 
         {/* LEFT CONTENT */}
@@ -113,45 +115,50 @@ export default function OffsetDetailsPage() {
             </table>
           </div>
 
-          {/* Projects Section */}
-          <div className="bg-white border border-gray-200 rounded-2xl shadow-md p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Climate Projects Supported
-            </h2>
+       {/* Projects Section */}
+<div className="bg-white border border-gray-200 rounded-2xl shadow-md p-8">
+  <h2 className="text-2xl font-bold text-gray-900 mb-8">
+    Climate Projects Supported
+  </h2>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              {pack.projects.map((project, index) => (
-                <div
-                  key={index}
-                  className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-lg transition"
-                >
-                  <img
-                    src={project.project_image_url}
-                    alt={project.projectId}
-                    className="h-48 w-full object-cover"
-                  />
+  <div className="grid md:grid-cols-2 gap-8">
+    {pack.projects.map((project, index) => (
+      <div
+        key={index}
+        className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-lg transition"
+      >
+        {/* Image Wrapper */}
+        <div className="relative">
+          <img
+            src={project.project_image_url}
+            alt={project.projectId}
+            className="h-48 w-full object-cover"
+          />
 
-                  <div className="p-6">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">
-                      {project.projectId}
-                    </h3>
+          {/* Bottom Blur / Fade */}
+          <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white/100 to-transparent"></div>
+        </div>
 
-                    <p className="text-gray-700 font-medium">
-                      Allocation:{" "}
-                      <span className="text-green-600 font-bold">
-                        {project.allocation_percent.toFixed(2)}%
-                      </span>
-                    </p>
+        <div className="p-6">
+          <h3 className="text-lg font-bold text-gray-900 mb-2">
+            {project.projectId}
+          </h3>
 
-                    <p className="text-gray-600 mt-2 text-sm">
-                      Price per kg: {pack.currency}{" "}
-                      {project.price_per_kg}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          <p className="text-gray-700 font-medium">
+            Allocation:{" "}
+            <span className="text-green-600 font-bold">
+              {project.allocation_percent.toFixed(2)}%
+            </span>
+          </p>
+
+          <p className="text-gray-600 mt-2 text-sm">
+            Price per kg: {pack.currency} {project.price_per_kg}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
         </div>
 
