@@ -56,7 +56,6 @@ farmers: "20000",
 soilArea: "11,920",
 treesEquiv: "39,500",
 electricityEquiv: "1.94M"
-
       }
     },
     {
