@@ -25,8 +25,8 @@ const Index = () => {
         <CrisisSection />
         <IntentSection />
         <BiocharSection />
-        <BiocharBoomSection />
         <ProjectsSection />
+        <BiocharBoomSection />
         <B3Section />
         {/* <ImpactSection /> */}
         <MRVSection />

@@ -5,8 +5,13 @@ import projectPuranpur from "@/assets/project-puranpur.jpg";
 import projectDamoh from "@/assets/project-damoh.jpg";
 import projectBandhavgarh from "@/assets/project-bandhavgarh.jpg";
 import projectUdupi from "@/assets/project-udupi.jpg";
+import { useState } from "react";
 
 const ProjectsSection = () => {
+
+const [activeGallery, setActiveGallery] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const projects = [
     {
       location: "Rajgarh",
@@ -22,7 +27,15 @@ const ProjectsSection = () => {
         soilArea: "10000",
         treesEquiv: "32,900",
         electricityEquiv: "1.6M"
-      }
+      },
+       images: [
+    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
+    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
+    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
+    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
+    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
+    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+  ]
     },
    
     {
@@ -39,8 +52,15 @@ farmers: "5000",
 soilArea: "11,400",
 treesEquiv: "29,600",
 electricityEquiv: "1.45M"
-
-      }
+},
+       images: [
+    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
+    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
+    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
+    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
+    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
+    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+  ]
     },
     {
       location: "Damoh",
@@ -56,7 +76,15 @@ farmers: "20000",
 soilArea: "11,920",
 treesEquiv: "39,500",
 electricityEquiv: "1.94M"
-      }
+      },
+       images: [
+    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
+    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
+    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
+    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
+    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
+    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+  ]
     },
     {
       location: "Bandhavgarh",
@@ -72,7 +100,15 @@ farmers: "10000",
 soilArea: "10,680",
 treesEquiv: "35,400",
 electricityEquiv: "1.73M"
-      }
+      },
+       images: [
+    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
+    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
+    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
+    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
+    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
+    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+  ]
     }
   ];
 
@@ -100,7 +136,7 @@ electricityEquiv: "1.73M"
             ClimeGrove at Work
           </h2>
           <p className="body-large text-muted-foreground opacity-0 animate-fade-in-up delay-200">
-            Six active project sites across India, each solving local crises while building permanent carbon infrastructure*.
+            Five active project sites across India, each solving local crises while building permanent carbon infrastructure*.
           </p>
         </div>
 
@@ -127,14 +163,36 @@ electricityEquiv: "1.73M"
                 </div>
               </div>
 
-              {/* Header */}
-              <div className="p-6 border-b border-border/30">
-                <h3 className="font-display text-2xl font-bold text-foreground mb-1">
-                  {project.location}
-                </h3>
-                <p className="text-terracotta font-medium">{project.headline}</p>
-                <p className="text-sm text-muted-foreground mt-1">{project.subhead}</p>
-              </div>
+             {/* Header */}
+<div className="p-6 border-b border-border/30">
+  <div className="flex justify-between items-start gap-4">
+    
+    {/* Left content */}
+    <div className="flex-1">
+      <h3 className="font-display text-2xl font-bold text-foreground mb-1">
+        {project.location}
+      </h3>
+      <p className="text-terracotta font-medium">
+        {project.headline}
+      </p>
+      <p className="text-sm text-muted-foreground mt-1">
+        {project.subhead}
+      </p>
+    </div>
+
+    {/* Right Gallery Button */}
+    {project.images && project.images.length > 0 && (
+      <button
+        onClick={() => setActiveGallery(project)}
+        className="text-sm text-foreground hover:underline whitespace-nowrap shrink-0 mt-20"
+      >
+        Gallery
+      </button>
+    )}
+    
+  </div>
+</div>
+
 
               {/* Description */}
               <div className="p-6 border-b border-border/30">
@@ -188,6 +246,45 @@ electricityEquiv: "1.73M"
 
 
       </div>
+
+      {/* GLOBAL MODAL */}
+{activeGallery && (
+  <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+    <div className="bg-white rounded-2xl p-4 max-w-4xl w-full relative">
+
+      <button
+        onClick={() => setActiveGallery(null)}
+        className="absolute top-3 right-3 text-black text-xl"
+      >
+        ✕
+      </button>
+
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        {activeGallery.images?.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            className="rounded-lg cursor-pointer hover:scale-105 transition"
+            onClick={() => setSelectedImage(img)}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+{/* FULL IMAGE */}
+{selectedImage && (
+  <div
+    className="fixed inset-0 bg-black/80 flex items-center justify-center z-[60]"
+    onClick={() => setSelectedImage(null)}
+  >
+    <img
+      src={selectedImage}
+      className="max-h-[90vh] max-w-[90vw] rounded-lg"
+    />
+  </div>
+)}
     </section>
   );
 };

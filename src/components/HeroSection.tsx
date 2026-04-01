@@ -38,7 +38,7 @@ const HeroSection = () => {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up delay-500">
+          {/* <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up delay-500">
             <a 
               href="#biochar" 
               className="inline-flex items-center justify-center px-8 py-4 bg-terracotta text-cream font-medium rounded-md hover:bg-terracotta-light transition-colors"
@@ -58,15 +58,15 @@ const HeroSection = () => {
 >
   Offset Your Employee Emissions
 </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in delay-1000">
         <div className="flex flex-col items-center gap-2">
-          <span className="text-xs text-muted-foreground uppercase tracking-widest">Scroll</span>
-          <div className="w-px h-12 bg-gradient-to-b from-terracotta to-transparent" />
+          {/* <span className="text-xs text-muted-foreground uppercase tracking-widest">Scroll</span> */}
+          {/* <div className="w-px h-12 bg-gradient-to-b from-terracotta to-transparent" /> */}
         </div>
       </div>
     </section>
