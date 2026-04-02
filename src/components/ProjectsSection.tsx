@@ -109,6 +109,30 @@ electricityEquiv: "1.73M"
     "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
     "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
   ]
+    },
+    {
+      location: "Sitamarhi",
+      state: "Uttar Pradesh",
+      headline: "Harnessing Mustard for Soil Restoration",
+      subhead: "From ash piles to Carbonic Fertilisers",
+      description: "In the vast tracts between Prayagraj and Varanasi, mustard stalks are burnt across hundreds of acres. Our project works with farmers to convert this biomass into high-quality biochar that is returned to the soil.",
+      image: "https://iili.io/BBJ9bdG.png",
+      metrics: {
+      biomass: "2,500",
+co2: "1,800",
+farmers: "3000",
+soilArea: "10,280",
+treesEquiv: "39,400",
+electricityEquiv: "1.90M"
+      },
+       images: [
+    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
+    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
+    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
+    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
+    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
+    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+  ]
     }
   ];
 
@@ -184,7 +208,7 @@ electricityEquiv: "1.73M"
     {project.images && project.images.length > 0 && (
       <button
         onClick={() => setActiveGallery(project)}
-        className="text-sm text-foreground hover:underline whitespace-nowrap shrink-0 mt-20"
+        className="text-sm text-terracotta hover:underline whitespace-nowrap shrink-0 mt-20"
       >
         Gallery
       </button>
