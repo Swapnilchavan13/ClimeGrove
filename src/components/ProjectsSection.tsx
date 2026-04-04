@@ -28,13 +28,13 @@ const [activeGallery, setActiveGallery] = useState(null);
         treesEquiv: "32,900",
         electricityEquiv: "1.6M"
       },
-       images: [
-    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
-    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
-    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
-    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
-    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
-    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+       images: ['https://iili.io/q5D0ESp.jpg',
+'https://iili.io/q5D0aVa.jpg',
+'https://iili.io/q5D0wVs.jpg',
+'https://iili.io/q5D0eff.jpg',
+'https://iili.io/BxOGfEu.jpg',
+'https://iili.io/BxOGKBe.jpg'
+    
   ]
     },
    
@@ -54,12 +54,12 @@ treesEquiv: "29,600",
 electricityEquiv: "1.45M"
 },
        images: [
-    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
-    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
-    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
-    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
-    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
-    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+    'https://iili.io/q5thJR4.jpg',
+'https://iili.io/q5tXpls.jpg',
+'https://iili.io/q5tUHEQ.jpg',
+'https://i.postimg.cc/9MtnxCbb/IMG-7221.jpg',
+'https://i.postimg.cc/RFQDP4dR/IMG-7345.jpg',
+'https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg',
   ]
     },
     {
@@ -78,12 +78,11 @@ treesEquiv: "39,500",
 electricityEquiv: "1.94M"
       },
        images: [
-    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
-    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
-    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
-    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
-    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
-    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+   'https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg',
+'https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg',
+      'https://iili.io/qcZWT2S.jpg',
+      'https://iili.io/qcZWAv9.jpg',
+      'https://iili.io/qcZWQ6l.jpg',
   ]
     },
     {
@@ -102,12 +101,11 @@ treesEquiv: "35,400",
 electricityEquiv: "1.73M"
       },
        images: [
-    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
-    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
-    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
-    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
-    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
-    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+    'https://i.postimg.cc/bvYgzk9M/Whats-App-Image-2026-01-09-at-5-54-27-PM-(1).jpg',
+'https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg',
+'https://i.postimg.cc/Ls0t27XM/bandhavgarh-nature.jpg',
+'https://i.postimg.cc/hG3LcwjK/Whats-App-Image-2026-01-10-at-3-05-05-PM.jpg',
+'https://i.postimg.cc/k5hQqZ4r/why-bandhavgarh-national-park-banner-img.jpg',
   ]
     },
     {
@@ -126,12 +124,7 @@ treesEquiv: "39,400",
 electricityEquiv: "1.90M"
       },
        images: [
-    "https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_incoming&w=740&q=80",
-    "https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=",
-    "https://img.freepik.com/free-photo/courage-man-jump-through-gap-hill-business-concept-idea_1323-262.jpg?semt=ais_incoming&w=740&q=80",
-    "https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg",
-    "https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg",
-    "https://ik.imagekit.io/serenity/ByteofDev/Blog_Content_Images/tr:f-jpg/speed_up_images_original_R8oje17ew"
+    "https://seawatersports.com/images/places/sitamarhi.png",
   ]
     }
   ];
