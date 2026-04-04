@@ -266,25 +266,51 @@ electricityEquiv: "1.90M"
 
       {/* GLOBAL MODAL */}
 {activeGallery && (
-  <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-    <div className="bg-white rounded-2xl p-4 max-w-4xl w-full relative">
+  <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4">
 
+    <div className="bg-white rounded-2xl w-full max-w-5xl p-5 relative shadow-xl">
+
+      {/* Close Button */}
       <button
         onClick={() => setActiveGallery(null)}
-        className="absolute top-3 right-3 text-black text-xl"
+        className="absolute top-4 right-4 text-gray-700 hover:text-black text-xl font-bold"
       >
         ✕
       </button>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-        {activeGallery.images?.map((img, index) => (
-          <img
-            key={index}
-            src={img}
-            className="rounded-lg cursor-pointer hover:scale-105 transition"
-            onClick={() => setSelectedImage(img)}
-          />
-        ))}
+      {/* Title */}
+      <h2 className="text-lg font-semibold mb-4 text-gray-800">
+        {activeGallery.location} Gallery
+      </h2>
+
+      {/* GRID */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+
+
+  {activeGallery.images?.map((img, index) => (
+    <div
+      key={index}
+      className="relative w-full h-40 sm:h-44 md:h-48 bg-gray-100 rounded-xl overflow-hidden flex items-center justify-center"
+    >
+
+      <img
+        src={img}
+        onClick={() => setSelectedImage(img)}
+        onError={(e) => {
+          // e.target.style.display = "none";
+        }}
+        className="w-full h-full object-cover transition duration-300 hover:scale-105 cursor-pointer"
+      />
+
+      {/* Number */}
+      <div className="absolute top-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">
+        {index + 1}
+      </div>
+
+    </div>
+  ))}
+
+
       </div>
     </div>
   </div>
@@ -293,12 +319,12 @@ electricityEquiv: "1.90M"
 {/* FULL IMAGE */}
 {selectedImage && (
   <div
-    className="fixed inset-0 bg-black/80 flex items-center justify-center z-[60]"
+    className="fixed inset-0 bg-black/90 flex items-center justify-center z-[60] p-4"
     onClick={() => setSelectedImage(null)}
   >
     <img
       src={selectedImage}
-      className="max-h-[90vh] max-w-[90vw] rounded-lg"
+      className="max-h-[90vh] max-w-[90vw] rounded-xl shadow-2xl"
     />
   </div>
 )}
